@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" data-cookies-popup="true">
+	<head>
+
+		<!-- Meta -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Title -->
+		<title>Favorites</title>
+
+		<!-- Favicons --> 
+		<link rel="shortcut icon" href="assets/img/favicon.png">
+		<link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+		<link rel="apple-touch-icon" sizes="120x120"
+			href="assets/img/favicon_120x120.png">
+		<link rel="apple-touch-icon" sizes="152x152"
+			href="assets/img/favicon_152x152.png">
+
+		<!-- Google Web Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+			rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600"
+			rel="stylesheet" type="text/css">
+
+		<!-- CSS Styles -->
+		<link rel="stylesheet" href="assets/css/styles.css" />
+
+		<!-- CSS Base -->
+		<link id="theme" rel="stylesheet" href="assets/css/themes/theme-classic.css" />
+
+	</head>
+
+	<body>
+
+		<!-- Loader -->
+		<div id="page-loader"><svg class="loader-1 loader-primary" width="65px"
+				height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle
+					class="circle" fill="none" stroke-width="3" stroke-linecap="round" cx="33"
+					cy="33" r="30"></circle></svg></div>
+		<!-- Loader / End -->
+
+		<!-- Header -->
+		<header id="header" class="absolute fullwidth transparent">
+
+			<!-- Top Bar -->
+			<div id="top-bar">
+				<div class="module left">Solo and thriving.</div>
+				<div class="module right">
+					<ul class="list-inline">
+						<li><i class="i-before ti-email text-primary"></i>solo@solosave.com</li>
+						<li><i class="i-before ti-mobile text-primary"></i>+44 123-456-7890</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Navigation Bar -->
+			<div id="nav-bar">
+
+				<!-- Logo -->
+				<a class="logo-wrapper" href="index.html">
+					<img class="logo logo-light" src="solosave_logo-01.png" alt="Logo">
+					<img class="logo logo-dark" src="solosave_logo-01.png" alt="Logo">
+				</a>
+
+				<nav class="module-group right">
+
+					<!-- Primary Menu -->
+					<div class="module menu left">
+						<ul id="nav-primary" class="nav nav-primary">
+
+							<li class="has-dropdown">
+								<a href="DESTINATIONS.html">Destinations</a>
+								<ul>
+									<li>
+										<a href="DESTINATIONS.html">All Destinations</a>
+									</li>
+									<li>
+										<a href="TOURS.html">Tours</a>
+									</li>
+									<li>
+										<a href="FAVORITES.html">Favorites</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="has-dropdown">
+								<a href="COMMUNITY.html">Community</a>
+								<ul>
+									<li>
+										<a href="COMMUNITY.html">Community Page</a>
+									</li>
+									<li>
+										<a href="FINDFRIENDS.html">Find Friends</a>
+									</li>
+									<li>
+										<a href="MAKEOFFERS.html">Make Offers</a>
+									</li>
+									<li><a href="CREATEPOST.html">Create Post</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="ABOUTUS.html">About Us</a>
+							</li>
+							<li>
+								<a href="documentation.html" target="_blank">Sign In</a>
+							</li>
+							<li class="has-dropdown lang">
+								<a href="#">Language Version</a>
+								<ul>
+									<li><a href="#">English</a></li>
+									<li><a href="#">Polish</a></li>
+									<li><a href="#">Spanish</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+
+					<!-- Language Menu -->
+					<div class="module language left">
+						<ul class="nav nav-primary">
+							<li class="has-dropdown">
+								<a href="#">Eng</a>
+								<ul>
+									<li><a href="#">English</a></li>
+									<li><a href="#">Polish</a></li>
+									<li><a href="#">Spanish</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Search -->
+					<div class="module search left">
+						<span class="trigger" data-toggle="search-bar"><i class="ti-search"></i></span>
+					</div>
+
+				</nav>
+
+				<!-- Menu Toggle -->
+				<div class="menu-toggle">
+					<a href="#" data-toggle="mobile-menu" class="mobile-trigger"><span><span></span></span></a>
+				</div>
+
+			</div>
+
+			<!-- Notification Bar -->
+			<div id="notification-bar"></div>
+
+			<!-- Search Bar -->
+			<div id="search-bar">
+				<form id="search-form">
+					<input class="search-bar-input" type="text" placeholder="Search...">
+					<button class="search-bar-submit"><i class="ti-search"></i></button>
+				</form>
+				<a href="#" class="search-bar-close" data-toggle="search-bar"><i
+						class="ti-close"></i></a>
+			</div>
+
+		</header>
+		<!-- Header / End -->
+
+		<!-- Section -->
+		<section id="concepts" class="section-sm bg-grey" style="color: white; background-color: #2E5461;">
+
+			<div class="container-fluid" style="margin-top: 60px;">
+				<div class="solosave-favorites">
+					<h5 class="text-center mb-30">Favorites</h5>
+
+					<ul class="nav nav-pills pills-sm filter-isotope mb-50 text-center favorites-solosave"
+						data-filter-list="#concepts-list">
+						<li class="active"><a href="#" data-filter="*">All</a></li>
+						<li><a href="#" data-filter=".onepage">Tours under $400</a></li>
+						<li><a href="#" data-filter=".under600">Tours under $600</a></li>
+					</ul>
+				</div>
+
+				<div id="concepts-list" class="row masonry favorites-img">
+					<div class="masonry-sizer col-md-4 col-sm-6"></div>
+					<div class="masonry-item under600 col-md-4 col-sm-6" style="height: 250px;">
+						<!-- Image -->
+						<div class="image-box inner-title text-center mb-30" style="height: 250px;">
+							<div class="image">
+								<a href="index.html"><img src="pic/a-landscape-view-of-budapest-city-the-hungarian-p-2023-11-27-05-12-27-utc.jpg"
+										alt></a>
+							</div>
+							<div class="title">
+								<a href="index.html">
+									<h5 class="mb-0">Budapest</h5>
+									<span class="text-muted">Hungary</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="masonry-item under600 col-md-4 col-sm-6" style="height: 250px;">
+						<!-- Image -->
+						<div class="image-box inner-title text-center mb-30" style="height: 250px;">
+							<div class="image">
+								<a href="index-rtl.html"><img
+										src="pic/breathtaking-view-on-promenade-of-otranto-in-italy-2023-03-15-01-24-49-utc.jpg" alt></a>
+							</div>
+							<div class="title">
+								<a href="index-rtl.html">
+									<h5 class="mb-0">Otrano</h5>
+									<span class="text-muted">Italy</span>
+								</a>
+							</div>
+							<span class="label label-info">New! 
+								</span>
+						</div>
+					</div>
+					<div class="masonry-item under600 col-md-4 col-sm-6" style="height: 250px;"> 
+						<!-- Image -->
+						<div class="image-box inner-title text-center mb-30" style="height: 250px;">
+							<div class="image">
+								<a href="index-multipage-consulting.html"><img
+										src="pic/happy-tourist-taking-selfie-picture-in-amsterdam-2023-11-27-05-02-29-utc.jpg" alt></a>
+							</div>
+							<div class="title">
+								<a href="index-multipage-consulting.html">
+									<h5 class="mb-0">Amsterdam</h5>
+									<span class="text-muted">Netherlands</span>
+								</a>
+							</div>
+							<span class="label label-info">New!</span>
+						</div>
+					</div>
+					<div class="masonry-item onepage under600 col-md-4 col-sm-6" style="height: 250px;">
+						<!-- Image -->
+						<div class="image-box inner-title text-center mb-30" style="height: 250px; margin-top: 20px;">
+							<div class="image">
+								<a href="index-onepage-consulting.html"><img
+										src="pic/girl-snorkeling-underwater-in-the-tropical-sea-2023-11-27-04-56-34-utc.jpg" alt></a>
+							</div>
+							<div class="title">
+								<a href="index-onepage-consulting.html">
+									<h5 class="mb-0">Bora Bora</h5>
+									<span class="text-muted">French Polynesia</span>
+								</a>
+							</div>
+							<span class="label label-info">New!</span>
+						</div>
+					</div>
+					<div class="masonry-item onepage under600 col-md-4 col-sm-6" style="height: 250px;">
+						<!-- Image -->
+						<div class="image-box inner-title text-center mb-30" style="height: 250px; margin-top: 20px;">
+							<div class="image">
+								<a href="index-onepage-finance.html"><img
+										src="pic/summer-vacation-holiday-travel-tourist-woman-on-v-2023-11-27-04-50-59-utc.jpg" alt></a>
+							</div>
+							<div class="title">
+								<a href="index-onepage-finance.html">
+									<h5 class="mb-0">Mykonos</h5>
+									<span class="text-muted">Greece</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="masonry-item under600 col-md-4 col-sm-6" style="height: 250px;">
+						<!-- Image -->
+						<div class="image-box inner-title text-center mb-30" style="height: 250px; margin-top: 20px;">
+							<div class="image">
+								<a href="index-multipage-finance.html"><img
+										src="pic/drifandi-waterfall-in-iceland-grass-field-and-a-c-2023-11-27-05-02-48-utc.jpg" alt></a>
+							</div>
+							<div class="title">
+								<a href="index-multipage-finance.html">
+									<h5 class="mb-0">Drifandi Waterfall</h5>
+									<span class="text-muted">Iceland</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- 
+
+
+		<div id="map" style="height: fit-content;"></div> -->
+
+		<!-- Footer -->
+		<footer id="footer" class="dark bg-secondary pt-90 pb-60" style="background-color: #1C333B;">
+
+			<div class="container">
+				<div class="row v-center-items">
+					
+					<div class="col-md-4 text-center mb-30">
+						<img class="logo logo-dark" src="solosave_logo-01.png" width="100"
+							alt="Logo">
+							<p style="padding-top: 15px; margin-bottom: 15px;">
+								solo@solosave.com
+							</p>
+							<p>
+								+44 123-456-7890
+							</p>
+					</div>
+
+					<div class="col-md-4 text-center mb-30">
+						<a href="#" class="icon icon-circle icon-facebook icon-sm" ><i
+								class="fa fa-facebook"></i></a>
+						<a href="#" class="icon icon-circle icon-twitter icon-sm" ><i
+								class="fa fa-twitter"></i></a>
+						<a href="#" class="icon icon-circle icon-google-plus icon-sm"><i
+								class="fa fa-google-plus" ></i></a>
+					</div>
+
+					<div class="col-md-4 text-center mb-30">
+						
+						<div>
+							<blockquote style="background-color: transparent;">
+								<p>"Adventure is worthwhile in itself."</p>
+								<footer style="color: white;">Amelia Earhart</footer>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center mb-30">
+						
+						<div>
+							<blockquote style="background-color: transparent;">
+								<p>"The world is a book and those who do not travel read only one page."</p>
+								<footer style="color: white;">St. Augustine</footer>
+							</blockquote>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</footer>
+		<!-- Footer / End -->
+
+		<!-- JS Libraries -->
+		<script src="assets/js/jquery-1.12.3.min.js"></script>
+
+		<!-- JS Plugins -->
+		<script src="assets/js/plugins.js"></script>
+
+		<!-- JS Core -->
+		<script src="assets/js/core.js"></script>
+
+	</body>
+
+</html>
